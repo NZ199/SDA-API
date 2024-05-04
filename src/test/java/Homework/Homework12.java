@@ -93,7 +93,7 @@ public class Homework12 {
 
     @Test(priority = 4)
     public void deletePetTest() {
-        // Delete the created pet
+        // delete the created pet
         RestAssured
                 .given()
                 .pathParam("petId", petId)

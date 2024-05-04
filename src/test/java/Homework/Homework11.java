@@ -35,7 +35,7 @@ public class Homework11 {
         // Parse JSON
         JsonPath jsonPath = JsonPath.from(response);
 
-        // Get total products and count "Women" products
+        // getHW13 total products and count "Women" products
         int totalProducts = jsonPath.getList("products").size();
         int womenProducts = jsonPath.getInt("products.findAll { it.category.usertype.usertype == 'Women' }.size()");
 

@@ -10,7 +10,6 @@ public class UserPetStorePojo {
     private String password;
     private String phone;
     private String userStatus;
-
     public UserPetStorePojo() {
 
     }
@@ -25,6 +24,7 @@ public class UserPetStorePojo {
         this.phone = phone;
         this.userStatus = "0";
     }
+
 
     public int getId() {
         return id;
